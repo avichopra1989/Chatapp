@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/attachButton"
+        android:orderInCategory="100"
+        android:title="@string/attach"
+        android:icon="@drawable/attach"
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/mapsButton"
+        android:orderInCategory="100"
+        android:title="@string/maps"
+        android:icon="@drawable/maps"
+        android:showAsAction="always"/>
+</menu>
+
